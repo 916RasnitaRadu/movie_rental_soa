@@ -4,7 +4,7 @@
 
 ## System Design
 
-![UML Diagram of the System](soa_project.png)
+![UML Diagram of the System](diagram.png)
 
 ---
 
