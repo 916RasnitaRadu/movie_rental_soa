@@ -1,0 +1,9 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:31112
+functions:
+  send-email:
+    lang: golang-middleware
+    handler: ./send-email
+    image: raduazn/send-email:latest
